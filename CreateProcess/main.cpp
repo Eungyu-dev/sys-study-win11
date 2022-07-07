@@ -1,13 +1,13 @@
 /***
-* feat : »õ·Î¿î ±â´É¿¡ ´ëÇÑ Ä¿¹Ô
-* fix : ¹ö±× ¼öÁ¤¿¡ ´ëÇÑ Ä¿¹Ô
-* build : ºôµå °ü·Ã ÆÄÀÏ ¼öÁ¤¿¡ ´ëÇÑ Ä¿¹Ô
-* chore : ±× ¿Ü ÀÚÀßÇÑ ¼öÁ¤¿¡ ´ëÇÑ Ä¿¹Ô
-* ci : CI°ü·Ã ¼³Á¤ ¼öÁ¤¿¡ ´ëÇÑ Ä¿¹Ô
-* docs : ¹®¼­ ¼öÁ¤¿¡ ´ëÇÑ Ä¿¹Ô
-* style : ÄÚµå ½ºÅ¸ÀÏ È¤Àº Æ÷¸Ë µî¿¡ °üÇÑ Ä¿¹Ô
-* refactor :  ÄÚµå ¸®ÆÑÅä¸µ¿¡ ´ëÇÑ Ä¿¹Ô
-* test : Å×½ºÆ® ÄÚµå ¼öÁ¤¿¡ ´ëÇÑ Ä¿¹Ô
+* feat : ìƒˆë¡œìš´ ê¸°ëŠ¥ì— ëŒ€í•œ ì»¤ë°‹
+* fix : ë²„ê·¸ ìˆ˜ì •ì— ëŒ€í•œ ì»¤ë°‹
+* build : ë¹Œë“œ ê´€ë ¨ íŒŒì¼ ìˆ˜ì •ì— ëŒ€í•œ ì»¤ë°‹
+* chore : ê·¸ ì™¸ ìžìž˜í•œ ìˆ˜ì •ì— ëŒ€í•œ ì»¤ë°‹
+* ci : CIê´€ë ¨ ì„¤ì • ìˆ˜ì •ì— ëŒ€í•œ ì»¤ë°‹
+* docs : ë¬¸ì„œ ìˆ˜ì •ì— ëŒ€í•œ ì»¤ë°‹
+* style : ì½”ë“œ ìŠ¤íƒ€ì¼ í˜¹ì€ í¬ë§· ë“±ì— ê´€í•œ ì»¤ë°‹
+* refactor :  ì½”ë“œ ë¦¬íŒ©í† ë§ì— ëŒ€í•œ ì»¤ë°‹
+* test : í…ŒìŠ¤íŠ¸ ì½”ë“œ ìˆ˜ì •ì— ëŒ€í•œ ì»¤ë°‹
 */
 
 #include <stdio.h>
@@ -20,7 +20,7 @@
 #define DIR_LEN MAX_PATH+1
 
 /***
-* TCHAR°ú °°Àº T ÀÚ·áÇü »ç¿ëÇÏ´Â ÀÌÀ¯: ¾Æ½ºÅ°ÄÚµå¿Í À¯´ÏÄÚµåÀÇ µ¿½Ã È£È¯¼ºÀ» À§ÇØ¼­ »ç¿ë
+* TCHARê³¼ ê°™ì€ T ìžë£Œí˜• ì‚¬ìš©í•˜ëŠ” ì´ìœ : ì•„ìŠ¤í‚¤ì½”ë“œì™€ ìœ ë‹ˆì½”ë“œì˜ ë™ì‹œ í˜¸í™˜ì„±ì„ ìœ„í•´ì„œ ì‚¬ìš©
 */
 int _tmain(int argc, TCHAR* argv[]) {
 	STARTUPINFO si;
